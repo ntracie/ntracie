@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  background-color: navajowhite;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: #040b14;
+  color: white;
+  padding: 2rem 3rem;
+  position: fixed;
+  left: 0;
+  z-index: 300;
+}
+.profilecard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  padding-left: 20rem;
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: url(/ZAKI9722w.jpg);
+  background-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.profile {
+  width: 40%;
+  padding-top: 1rem;
+  border-radius: 100px;
+}
+.icon {
+  color: white;
+  display: flex;
+  gap: 1rem;
+
+  font-size: 10px;
+}
+.icon i{
+    font-size: 2rem;
+}
+.icon a {
+  color: white;
+}
+.icon i {
+  background-color: #040B14;
+  border-radius: 2rem;
+}
+.profilecard h2 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+   gap: .5rem;
+  color: gray;
+}
+.links a i{
+    font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  padding-top: 1rem;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+.copyright p span {
+  color: aqua;
+  font-family: "Madimi One", sans-serif;
+}
+.profilename {
+  font-size: x-large;
+  z-index: 300;
+  font-family: "Roboto", sans-serif;
+}
+.overally {
+  width: 100%;
+  opacity: 0.5;
+  z-index: 2;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.abt {
+  background-color: white;
+  z-index: 300;
+  padding-top: 1rem;
+  padding-left: 10rem;
+  width: 100%;
+}
+.abt {
+  padding-top: 1rem;
+}
+.about {
+  padding-bottom: 2rem;
+}
+.tracy {
+  padding-bottom: 2rem;
+}
+.images {
+  width: 40%;
+}
+.details h3 {
+  color: rgb(0, 174, 255);
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.details p {
+  padding-top: 1rem;
+}
+.pprofile {
+  width: 100%;
+}
+.birth {
+  display: flex;
+  gap: 3rem;
+}
+.facts {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.facts h3 {
+  width: 60px;
+  border-bottom: 5px solid blue;
+  padding-top: 4rem;
+}
+.flex1 {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding: 1rem;
+}
+.bx {
+  font-size: 3rem;
+}
+.html {
+  background-color: rgb(14, 13, 13);
+  height: 9px;
+  width: 500px;
+}
+.html,
+.covered {
+  background-color: blue;
+  width: 40%;
+}
+.skill {
+  width: 100%;
+  background-color: #F5F8FD;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.skill h3{
+   color:  #149DDD;; 
+}
+.Portfolio {
+  padding-top: 2rem;
+  width: 100%;
+  background-color: #F5F8FD;
+}
+.Portfolio p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.Portfolio h2{
+    color: #149DDD;  
+}
+
+.imagee {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+}
+.pict {
+  width: 40%;
+}
+.pict img {
+  width: 100%;
+  object-fit: cover;
+}
+.service{
+    width: 100%;
+  background-color: rgb(181, 176, 176);
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-top: 3rem;
+}
+.service h3{
+    color: #149DDD;
+}
+.Contactss{
+  background-color: #F5F8FD;
+
+}
+.contactss h2{
+    color: #149DDD; 
+}
+.direction{
+    gap: 4rem;
+    padding-bottom: 2rem;
+    color: black;
+
+}
